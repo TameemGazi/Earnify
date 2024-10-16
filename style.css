@@ -1,0 +1,141 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    color: #f3ec78;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #af4261;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #f3ec78;
+}
+
+#questions {
+    padding: 50px;
+    text-align: center;
+}
+
+.question-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.question-card p {
+    font-size: 1.2rem;
+}
+
+#answerInput {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.submit-answer {
+    padding: 10px 20px;
+    background-color: #af4261;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-answer:hover {
+    background-color: #f3ec78;
+}
+
+#earnings {
+    padding: 50px;
+    text-align: center;
+}
+
+.earnings-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.thank-you-card {
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.thank-you-card h2 {
+    color: #4caf50;
+    font-size: 2rem;
+}
+
+.thank-you-card p {
+    color: #333;
+    font-size: 1.2rem;
+}
